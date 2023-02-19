@@ -8,8 +8,29 @@ namespace Lessons
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
-            Console.WriteLine("Привет мир"); 
+            int a, b;
+         
+            a = 6;
+            b = 8;
+
+            bool variable = false;
+            bool Variable = true;
+
+            double g = 1.33;
+            char c = 'a';
+
+            a = 655;
+
+            
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(variable);
+            Console.WriteLine(Variable);
+            Console.WriteLine(g);
+            Console.WriteLine(c);
+
+
         }
     }
 }
