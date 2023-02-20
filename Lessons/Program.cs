@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design.Serialization;
 using System.Globalization;
 
 namespace Lessons
@@ -8,17 +9,22 @@ namespace Lessons
         static void Main(string[] args)
         {
 
-            string str = "1.9";
+            string str = "14,4";
 
-            NumberFormatInfo numberFormatInfo =  new NumberFormatInfo();
+            int a;
+           bool result = int.TryParse(str, out a);
+            if (result )
             {
-                NumberDecimalSeparator = ".",
-
+                Console.WriteLine("Операция успешна, значение = " + a);
             }
-           double a = Convert.ToDouble(str, numberFormatInfo);
+            else
+            {
+                Console.WriteLine("Не удалось конвертировать!");
+            }
+          
           
 
-            Console.WriteLine(a);
+           
 
         }
     }
