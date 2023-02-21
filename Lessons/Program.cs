@@ -10,12 +10,22 @@ namespace Lessons
     {
         static void Main(string[] args)
         {
-            int a=5;
-            int b = 5;
-            bool result = a != b;
-            Console.WriteLine(result);
-
+            int a;
+            a = int.Parse(Console.ReadLine());
+            if (a==5) 
+            {
+                Console.WriteLine("a=5");
+            }
+            else if (a==2)
+            {
+                Console.WriteLine("a=2");
+            }
+            else
+            {
+                Console.WriteLine("a!=5");
+            }
             
+
         }
     }
 }
