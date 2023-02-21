@@ -10,7 +10,9 @@ namespace Lessons
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world from Lessons");
+            int a=1;
+            a = ++a * a;
+            Console.WriteLine(a);
             
         }
     }
