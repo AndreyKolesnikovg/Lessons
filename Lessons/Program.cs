@@ -10,9 +10,11 @@ namespace Lessons
     {
         static void Main(string[] args)
         {
-            int a=1;
-            a = ++a * a;
-            Console.WriteLine(a);
+            int a=5;
+            int b = 5;
+            bool result = a != b;
+            Console.WriteLine(result);
+
             
         }
     }
