@@ -3,6 +3,7 @@ using System.ComponentModel.Design.Serialization;
 using System.Globalization;
 using System.Runtime.ExceptionServices;
 using System.Security.AccessControl;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Lessons
 {
@@ -10,19 +11,12 @@ namespace Lessons
     {
         static void Main(string[] args)
         {
-            int a;
-            a = int.Parse(Console.ReadLine());
-            if (a==5) 
+            bool isInfected = false;
+            bool isLoh = false;
+         
+            if (!isInfected && !isLoh) 
             {
-                Console.WriteLine("a=5");
-            }
-            else if (a==2)
-            {
-                Console.WriteLine("a=2");
-            }
-            else
-            {
-                Console.WriteLine("a!=5");
+                Console.WriteLine("Персонаж болен и не Loh");
             }
             
 
