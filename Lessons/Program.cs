@@ -11,16 +11,18 @@ namespace Lessons
     {
         static void Main(string[] args)
         {
-            int count = 0;
-            do
+
+            int limit = int.Parse(Console.ReadLine());
+            
+
+            for (int i = 0; i < limit; i++)
             {
-            count++;
-                Console.WriteLine(count);
+                Console.WriteLine(i);
+            }
 
-            } 
-            while (count<0);
-           
+            
 
+ 
 
         }
     }
