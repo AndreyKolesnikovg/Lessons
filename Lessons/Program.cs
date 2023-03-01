@@ -11,15 +11,15 @@ namespace Lessons
     {
         static void Main(string[] args)
         {
-            for (int i = 0;i < 100; i++) 
+            for (int i = 0;i < 4; i++) 
             { 
+                if (i == 2)
+                {
+                    continue;
 
-                string msg = Console.ReadLine();
-
-                
-                if (msg == "exit") {
-                    break;
                 }
+               
+
                 Console.WriteLine(i);
             }
 
