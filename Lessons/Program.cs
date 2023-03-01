@@ -12,17 +12,40 @@ namespace Lessons
         static void Main(string[] args)
         {
 
-            int limit = int.Parse(Console.ReadLine());
-            
+            /*   int limit = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < limit; i++)
+
+               for (int i = 0; i < limit; i++)
+               {
+                   Console.WriteLine(i);
+               }
+
+           */
+            /* 
+            int i = 0;
+            for (; i<3;i++ )
             {
-                Console.WriteLine(i);
+                Console.WriteLine("for_1 " + i);
+            } */
+
+
+            /* for (int i = int.Parse(Console.ReadLine()); i>=0; i--)
+            {
+                
+                Console.WriteLine(i + "i");
+                
+            }
+            */
+
+            for (int i = 0, j=5; i < 5; i++, j--)
+            {
+                Console.WriteLine(i + "i");
+                Console.WriteLine(j + "j");
             }
 
-            
 
- 
+
+            Console.ReadLine();
 
         }
     }
