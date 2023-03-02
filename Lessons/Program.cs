@@ -12,22 +12,13 @@ namespace Lessons
         static void Main(string[] args)
         {
 
-            int[] myarray;
+            int[] myarray = {5,6,7,9,8};
 
-            myarray = new int[199];
-            myarray[0] = 1;
-            myarray[1] = 2;
-            myarray[2] = 3;
-            
-            myarray[4] = 5;
-            myarray[3] = myarray[4] + myarray[2];
+            Console.WriteLine(myarray[2]);
+           
 
 
-      
-
-
-            Console.WriteLine(myarray[3]);
-            Console.WriteLine(myarray.Length);
+          
 
             Console.ReadLine();
 
