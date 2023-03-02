@@ -14,10 +14,17 @@ namespace Lessons
 
             int[] myarray = {5,6,7,9,8};
 
-            Console.WriteLine(myarray[2]);
+
+            for (int i = 0; i < myarray.Length; i++)
+            {
+                Console.WriteLine(myarray[i]);
+            }
+         
+
+          
            
 
-
+            
           
 
             Console.ReadLine();
