@@ -13,12 +13,7 @@ namespace Lessons
         static void Main(string[] args)
         {
 
-            int[] myarray = {5,6,7,9,8};
-
-            int result = myarray.Where(i => i < 0).FirstOrDefault();
-
-
-            Console.WriteLine(result);
+            
         
             
           

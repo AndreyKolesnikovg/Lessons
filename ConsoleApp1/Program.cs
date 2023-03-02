@@ -10,8 +10,12 @@ namespace MyProject
     {
         static void Main(string[] args)
         {
-            int[] myArray = { 2, 10, 5, 6, 77, 89 };
-            Console.WriteLine(myArray[^1]);
+
+            string str = "Hello world !!!";
+      
+            Console.WriteLine(str[6..11]);
+
+            
         }
     }
 }
