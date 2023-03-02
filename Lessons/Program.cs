@@ -11,22 +11,32 @@ namespace Lessons
     {
         static void Main(string[] args)
         {
-            
-      
 
-                for (int i = 1; i <= 3; i++)
+            /*      bool accessAllowed;
 
-                {
-                    Console.WriteLine("цикл 1 итерация №: " + i);
-                for (int j = 1; j <= 5; j++)
-                {
-                    Console.WriteLine(" цикл 2 итерация №: " + j);
-                }
-                }
-            
-            
-           
-        Console.ReadLine();
+            string storedPassword = "qwerty";
+            string enteredPassword = Console.ReadLine();
+          accessAllowed = enteredPassword == storedPassword ? true : false;
+            Console.WriteLine(accessAllowed);
+
+
+
+            Console.ReadLine();
+        
+
+           */
+
+
+            int inputData = int.Parse(Console.ReadLine());
+
+            int outputData = (inputData < 0) ? 0 : inputData;
+            Console.WriteLine(outputData);
+
+            Console.ReadLine();
+
+
+
+
         }
     }
 }
