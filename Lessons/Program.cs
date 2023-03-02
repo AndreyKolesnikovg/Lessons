@@ -12,25 +12,22 @@ namespace Lessons
         static void Main(string[] args)
         {
 
-            /*      bool accessAllowed;
+            int[] myarray;
 
-            string storedPassword = "qwerty";
-            string enteredPassword = Console.ReadLine();
-          accessAllowed = enteredPassword == storedPassword ? true : false;
-            Console.WriteLine(accessAllowed);
-
-
-
-            Console.ReadLine();
-        
-
-           */
+            myarray = new int[199];
+            myarray[0] = 1;
+            myarray[1] = 2;
+            myarray[2] = 3;
+            
+            myarray[4] = 5;
+            myarray[3] = myarray[4] + myarray[2];
 
 
-            int inputData = int.Parse(Console.ReadLine());
+      
 
-            int outputData = (inputData < 0) ? 0 : inputData;
-            Console.WriteLine(outputData);
+
+            Console.WriteLine(myarray[3]);
+            Console.WriteLine(myarray.Length);
 
             Console.ReadLine();
 
