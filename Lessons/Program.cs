@@ -13,7 +13,17 @@ namespace Lessons
         static void Main(string[] args)
         {
 
+            int[,] myArray;
+            myArray = new int[,] 
+            {
+                {2,45,12 ,1,1},
+                {1,1,1,1,3}, 
+                { 3,3,4,4,3}
+
+            };
             
+
+            Console.WriteLine(myArray[0,2])  ;
         
             
           
