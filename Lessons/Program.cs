@@ -18,12 +18,25 @@ namespace Lessons
             {
                 {2,45,12 ,1,1},
                 {1,1,1,1,3}, 
-                { 3,3,4,4,3}
+                {3,3,4,4,3}
 
             };
-            
 
-            Console.WriteLine(myArray[0,2])  ;
+            int height = myArray.GetLength(0);
+            int width = myArray.GetLength(1);
+
+
+            for (int i = 0; i < height; i++)
+            {
+                for (int j = 0; j < width; j++)
+                {
+                    Console.Write(myArray[i,j] + "\t");
+                }
+                Console.WriteLine();
+            }
+           
+
+     
         
             
           
